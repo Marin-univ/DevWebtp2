@@ -1,4 +1,7 @@
-main, h1{ padding: 1em;}
+main, h1, p{ 
+  padding: 1em;
+  color: orangered;
+}
 
 html{
   background-color: lightgray;
@@ -21,4 +24,17 @@ main li{
 
 footer{
   border: thin solid black;
+}
+
+img{
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px;
+}
+
+nav{
+  box-shadow: 5px 5px 5px black;
+}
+
+li{
+  list-style-type: none;
 }
